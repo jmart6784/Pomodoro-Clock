@@ -1,0 +1,160 @@
+#container {
+  text-align: center;
+  background-color: black;
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+  border-radius: 20px 20px 0px 0px;
+}
+body {
+  background-color: rgb(43, 43, 43);
+}
+h1 {
+  text-align: center;
+  color: rgb(172, 172, 172);
+  font-family: 'Carter One', cursive;
+}
+#current {
+  padding-top: 20px;
+}
+button {
+  color: rgb(179, 179, 179);
+  background-color: rgb(58, 58, 58);
+  height: 40px;
+  width: 60px;
+  border-radius: 50px;
+  border: 0px;
+  font-family: 'Carter One', cursive;
+}
+button:hover {
+  transition: 0s;
+  border: 1px white solid;
+  color: white;
+  height: 45px;
+  width: 32%;
+}
+#running {
+  display: none;
+  background-color: rgb(0, 100, 0);
+  color: white;
+}
+#start:hover {
+  color: white;
+  border: 2px white solid;
+  background-color: rgb(0, 100, 0);
+}
+#stopped {
+  display: none;
+  background-color: rgb(141, 0, 0);
+  color: white;
+  height: 45px;
+  width: 30%;
+}
+#stop:hover {
+  color: white;
+  border: 2px white solid;
+  background-color: rgb(141, 0, 0);
+}
+#reset:hover{
+  color: white;
+  border: 2px white solid;
+  background-color: rgb(0, 16, 160);
+}
+#seconds {
+  padding: 0px;
+  font-size: 50px;
+  font-family: 'Carter One', cursive;
+}
+#minutes {
+  padding: 0px;
+  font-size: 50px;
+  font-family: 'Carter One', cursive;
+}
+.label {
+  color: white;
+  width: 55px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Carter One', cursive;
+}
+.tnumbers {
+  color: black;
+  background-color: white;
+  border-radius: 15px;
+  height: 70px;
+  width: 70px;
+  font-size: 100px;
+}
+#time {
+  width: 250px;
+  height: 80px;
+  text-align: center;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  text-align: center;
+}
+#timetitle {
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#colon {
+  color: white;
+  width: 10px;
+  font-weight: bold;
+  font-size: 70px;
+  text-align: center;
+  margin: 0 auto;
+}
+#buttons {
+  width: 100%;
+  height: 45px;
+  text-align: center;
+  margin: 0 auto;
+}
+.btn {
+  font-family: 'Carter One', cursive;
+  width: 30%;
+}
+#options {
+  background-color: rgb(65, 65, 65);
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  font-family: 'Carter One', cursive;
+  border-radius: 0px 0px 20px 20px;
+}
+h3 {
+  color: white;
+}
+.arrow {
+  border-radius: 100px;
+}
+.arrow:hover {
+  background-color: black;
+  border: 1px solid white;
+}
+#optiontitle {
+  font-family: 'Carter One', cursive;
+  background-color: rgb(65, 65, 65);
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  height: 35px;
+}
+#titlesession {
+  color: white;
+  font-size: 36px;
+  font-family: 'Carter One', cursive;
+  display: inline-block;
+}
+#titlebreak {
+  display: none;
+  color: white;
+  font-size: 36px;
+  font-family: 'Carter One', cursive;
+}

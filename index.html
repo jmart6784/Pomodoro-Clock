@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="style.css" rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Carter+One&display=swap" rel="stylesheet">
+  <title>Pomodoro Clock</title>
+</head>
+<body>
+  <h1 id="title">Pomodoro Clock</h1>
+  <div id="container">
+    <br>
+      <h3 id="titlesession">Session</h3>
+      <h3 id="titlebreak">Break</h3>
+      <div id="time">
+        <br>
+        <div id="minutes" class="tnumbers">25</div>
+          <br>
+        <div id="colon">:</div>
+          <br>
+        <div id="seconds" class="tnumbers">0</div>
+        <br>
+      </div>
+      <div id="timetitle">
+        <div class="label">Minutes</div>
+          <br>
+        <div class="label">Seconds</div>
+      </div>
+        <div id="buttons">
+          <button id="running" class="btn">running...</button>
+          <button id="start" class="btn">Start</button>
+          <button id="stopped">Stopped</button>
+          <button id="stop" class="btn">Stop</button>
+          <button id="reset" class="btn">Reset</button>
+        </div>
+        <div id="optiontitle">
+          <br>
+          <h3>Session</h3>
+          <br>
+          <h3>Break</h3>
+          <br>
+        </div>
+        <div id="options">
+          <br>
+          <h3 id="sess-dw" class="arrow">-</h3>
+            <h3 id="session">25</h3>
+          <h3  id="sess-up" class="arrow">+</h3>
+          <h3  id="bre-dw" class="arrow">-</h3>
+            <h3 id="break">5</h3>
+          <h3  id="bre-up" class="arrow">+</h3>
+          <br>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
